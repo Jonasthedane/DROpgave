@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Coding Template</title>
+  <link rel="stylesheet" type="text/css" href="bundle.css">
+</head>
+
+<body>
+  
+  <h2>Search for music!</h2>
+  <input type="text" id="searchInput">
+  <button type="button" id="searchButton">Search</button>
+  <p id="searchOutput"></p>  
+
+  <button type="button" id="getMusic">Get Music List</button>
+  <div id="musicListOutput"></div>
+
+  <div>
+    <h2>Add Song</h2>
+    <span>ID</span>
+    <input type="number" id="songId">
+    <br>
+    <span>Title</span>
+    <input type="text" id="songTitle">
+    <br>
+    <span>Artist</span>
+    <input type="text" id="songArtist">
+    <br>
+    <span>Song length (seconds)</span>
+    <input type="text" id="songDuration">
+    <br>
+    <button type="button" id="addSongButton">Add song</button>
+    <p id="AddResponse"></p>
+  </div>
+
+  <div>
+    <h2>Delete song by ID</h2>
+    <input type="number" id="deleteSongId">
+    <button type="button" id="deleteButton">Delete song</button>
+    <p id="responseDelete"></p>
+  </div>
+
+  <div>
+    <h2>Change song</h2>
+    <span>ID</span>
+    <input type="number" id="changeId">
+    <br>
+    <span>Title</span>
+    <input type="text" id="changeTitle">
+    <br>
+    <span>Artist</span>
+    <input type="text" id="changeArtist">
+    <br>
+    <span>Song length</span>
+    <input type="text" id="changeSongDuration">
+    <br>
+    <button type="button" id="changeSongButton">Change song</button>
+    <p id="changeResponse"></p>
+  </div>
+
+  <script src="bundle.js"></script>
+</body>
+</html>
